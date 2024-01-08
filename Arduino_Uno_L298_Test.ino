@@ -349,29 +349,11 @@ void linefollower4() // Did not work as intended. Robot turns backward when it a
     digitalWrite(in4, LOW);
   }            
 }
+
 void loop()
 {
-  //linefollower1();
-    //linefollower2(); //15.1 sec per loop 
-  //linefollower3(); //14.3 sec per loop 
+//linefollower1();
+//linefollower2(); //15.1 sec per loop 
+//linefollower3(); //14.3 sec per loop 
   linefollower4(); //13.0 sec per loop 
-//  int l1 = analogRead(d1);
-//  int l3 = analogRead(d3);
-//  int l4 = analogRead(d4);
-//  int l5 = analogRead(d5);
-//  int l6 = analogRead(d6);
-//  int l8 = analogRead(d8);
-//  float v1 = l1 * (5.0 / 1024.0);
-//  float v3 = l3 * (5.0 / 1024.0);
-//  float v4 = l4 * (5.0 / 1024.0);
-//  float v5 = l5 * (5.0 / 1024.0);
-//  float v6 = l6 * (5.0 / 1024.0);
-//  float v8 = l8 * (5.0 / 1024.0);
-//  Serial.println(v1);
-//  Serial.println(v3);
-//  Serial.println(v4);
-//  Serial.println(v5);
-//  Serial.println(v6);
-//  Serial.println(v8);
-//  delay(2000);
 }
