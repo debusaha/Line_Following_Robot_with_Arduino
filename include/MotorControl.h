@@ -12,6 +12,6 @@ public:
 
 private:
     int enA, in1, in2, enB, in3, in4;
-}
+};
 
 #endif

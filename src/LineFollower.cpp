@@ -1,8 +1,7 @@
 #include "LineFollower.h"
 #include <Arduino.h>
 
-LineFollower::LineFollower(int d1, int d3, int d4, int d5, int d6, int d8)
-    : d1(d1), d3(d3), d4(d4), d5(d5), d6(d6), d8(d8) {}
+LineFollower::LineFollower(int d1, int d3, int d4, int d5, int d6, int d8) : d1(d1), d3(d3), d4(d4), d5(d5), d6(d6), d8(d8) {}
 
 void LineFollower::linefollower1() {
     float threshold = 4.00;
